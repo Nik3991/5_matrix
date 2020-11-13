@@ -4,6 +4,7 @@ compiler: clang
 addons:
   apt:
     packages:
+    - libboost-test-dev
     - libspdlog-dev
     - doxygen
     - doxygen-doc
